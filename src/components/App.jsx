@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 import ContactList from './ContactList';
 import { Header, SectionHeader } from './App.styled';
 import Filter from './Filter';
-import useLocalStorage from './hooks/useLocalStorage';
+import useLocalStorage from '../hooks/useLocalStorage';
 
 const LS_KEY = 'contacts';
 
